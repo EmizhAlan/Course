@@ -1,0 +1,15 @@
+div.shapka {
+    display: flex;
+    background-color: blue;
+}
+
+div.tovar {
+    display: flex;
+    margin: 16px 16px;
+    padding: 0px;
+}
+
+.one {
+    background-color: blueviolet;
+    margin: 16px;
+}
