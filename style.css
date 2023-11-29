@@ -13,3 +13,246 @@ div.tovar {
     background-color: blueviolet;
     margin: 16px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    align-items: center;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    gap: 800px;
+    background-color: aqua;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: center;
+}
+
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #1F2937;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.plaseim {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.main {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
+}
+
+.main.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container button {
+    border: none;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.header1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.header1-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.thwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+.thwo-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.thwo-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+    gap: 3em;
+}
+
+.image-subtext {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.amg {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.god {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.goder {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.soso {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+em {
+    font-style: italic;
+}
+
+.sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.sign_up-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
