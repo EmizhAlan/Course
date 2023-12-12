@@ -44,7 +44,7 @@ a3.href = 'test_delete/Plain Text.html';
 const a4 = document.createElement('a');
 a4.classList.add('sos');
 a4.textContent = 'Home';
-a4.href = 'file:///home/emizh/Course/index.html#';
+a4.href = 'https://emizhalan.github.io/Course/';
 
 
 //top
