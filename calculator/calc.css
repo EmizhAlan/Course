@@ -275,3 +275,44 @@ footer {
 .sos {
     color: #FFF;
 }
+/*styles calculator*/
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 115px;
+}
+
+button#btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button#btn:hover {
+    background-color: #45a049;
+}
+
+#gearRatioResult, #gearStepResult, #speedResult {
+    margin-top: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: left;
+    gap: 8px;
+    align-items: start;
+}
+
