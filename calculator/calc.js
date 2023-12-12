@@ -75,7 +75,7 @@ plaseholder.classList.add('plaseholder');
 
 const plaseim = document.createElement('img');
 plaseim.classList.add('plaseim');
-plaseim.src = 'file:///home/emizh/Course/images/9585e8e00c835b3c4945bfabc2737c43%20(1).jpeg';
+plaseim.src = 'images/9585e8e00c835b3c4945bfabc2737c43%20(1).jpeg';
 
 //calculator
 
