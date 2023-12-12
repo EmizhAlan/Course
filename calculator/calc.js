@@ -93,6 +93,7 @@ raschet.classList.add('form');
 const form = document.createElement('form');
 
 const div1 = document.createElement('div');
+div1.classList.add('flex');
 const labele1 = document.createElement('label');
 labele1.for = 'frontGear';
 labele1.textContent = 'Передняя звезда:';
@@ -119,6 +120,7 @@ for (var i = 0; i < options1.length; i++) {
 const br1 = document.createElement('br')
 
 const div2 = document.createElement('div');
+div2.classList.add('flex');
 const labele2 = document.createElement('label');
 labele2.for = 'rearGear';
 labele2.textContent = 'Задняя звезда:';
@@ -146,6 +148,7 @@ for (var i = 0; i < options2.length; i++) {
 }
 
 const div3 = document.createElement('div');
+div3.classList.add('flex');
 const labele3 = document.createElement('label');
 labele3.for = 'fireSize';
 labele3.textContent = 'Размер покрышки (в мм):';
@@ -176,6 +179,7 @@ for (var i = 0; i < options3.length; i++) {
 }
 
 const div4 = document.createElement('div');
+div4.classList.add('flex');
 const labele4 = document.createElement('label');
 labele4.for = 'cadence';
 labele4.textContent = 'Каденс:';
@@ -209,7 +213,7 @@ btn.addEventListener('click', function() {
   
     const one1 = document.getElementById("gearRatioResult").innerHTML = "Передаточное число: " + gearRatio;
     const zero = document.getElementById("gearStepResult").innerHTML = "Шаг укладка: " + gearStep;
-    const free = document.getElementById("speedResult").innerHTML = "Скорость велосипеда: " + speed;
+    const free = document.getElementById("speedResult").innerHTML = "Скорость велосипеда: " + speed + " км";
  
 });
 
