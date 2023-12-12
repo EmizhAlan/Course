@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
     <script src="Plain Text.js"></script>
+    
 </head>
 <body>
     <form>
-        <label for="frontGear">Передняя звезда:</label>       
-        <select type="number" id="frontGear">
+        <div>
+            <label for="frontGear">Передняя звезда:</label>       
+            <select type="number" id="frontGear">
             <option value="10">10T</option>
    <option value="11">11T</option>
    <option value="12">12T</option>
@@ -71,8 +74,12 @@
    <option value="68">68T</option>
    <option value="69">69T</option>
         </select>
+        </div>
+        
         <br>
-        <label for="rearGear">Задняя звезда:</label>        
+
+        <div>
+            <label for="rearGear">Задняя звезда:</label>        
         <select type="number" id="rearGear">
             <option value="9">9T</option>
    <option value="10" selected="selected">10T</option>
@@ -136,8 +143,13 @@
    <option value="68">68T</option>
    <option value="69">69T</option>
         </select>
+        </div>
+
+        
         <br>
-        <label for="tireSize">Размер покрышки (в мм):</label>        
+
+        <div>
+            <label for="tireSize">Размер покрышки (в мм):</label>        
         <select type="number" id="tireSize">
             <option value="0">Ввести окружность в мм</option>
 <option value="1">Ввести диаметр в мм</option>
@@ -225,9 +237,16 @@
 <option value="0">Ввести окружность в мм</option>
 <option value="1">Ввести диаметр в мм</option>
         </select>
+        </div>
+
+        
         <br>
-        <label for="cadence">Каденс:</label>
-        <input type="number" id="cadence">
+
+        <div>
+            <label for="cadence">Каденс:</label>
+            <input type="number" id="cadence">
+        </div>
+       
         <br>
         <button type="button" onclick="formula()">Формулы</button>
         <button type="button" onclick="calculate()">Рассчитать</button>
