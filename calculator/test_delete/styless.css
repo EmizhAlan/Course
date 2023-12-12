@@ -1,0 +1,26 @@
+form {
+    
+    border: 1px solid #CCD0D3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 3px 0 6px;
+    padding: 8px 0px 8px 1px;
+    background: none;
+    
+}
+
+select {
+    width: 235px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+
+div {
+    gap: 50px;
+}
